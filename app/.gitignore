@@ -1,0 +1,40 @@
+# Gradle files
+.gradle/
+build/
+*/build/
+gradlew
+gradlew.bat
+
+# Local configuration file (contains absolute paths and API keys)
+local.properties
+
+# Firebase Configuration - SECURITY WARNING: Never commit this file to public repos!
+app/google-services.json
+google-services.json
+
+# IntelliJ IDEA / Android Studio workspace files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Keystore files (Used for app signing)
+*.jks
+*.keystore
+
+# Mac OS X directory attributes
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Log Files
+*.log
+
+# C/C++ compilation artifacts (if you use NDK in the future)
+.cxx/
+
+# Output files from Android Studio
+*.apk
+*.ap_
+*.aab
