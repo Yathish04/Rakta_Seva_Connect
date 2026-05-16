@@ -4,11 +4,13 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.raktasevaconnect.data.BloodGroup
 import com.example.raktasevaconnect.data.Donor
-import com.example.raktasevaconnect.repository.DonorRepository
+import com.example.raktasevaconnect.repository.DonorRepository // Make sure this is imported!
+import com.example.raktasevaconnect.utils.RepositoryProvider
 import kotlinx.coroutines.launch
 import java.util.UUID
 
-class DonorViewModel(private val repository: DonorRepository) : ViewModel() {
+// FIXED: Added explicit type ": DonorRepository"
+class DonorViewModel(private val repository: DonorRepository = RepositoryProvider.getDonorRepository()) : ViewModel() {
 
     fun registerNewDonor(
         name: String,

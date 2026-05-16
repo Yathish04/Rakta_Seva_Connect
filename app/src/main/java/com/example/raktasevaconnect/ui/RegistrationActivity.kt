@@ -8,7 +8,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.raktasevaconnect.R
-import com.example.raktasevaconnect.repository.DonorRepository
+import com.example.raktasevaconnect.repository.FirebaseDonorRepository
 import com.example.raktasevaconnect.viewmodel.DonorViewModel
 import java.util.Calendar
 
@@ -16,7 +16,7 @@ class RegistrationActivity : AppCompatActivity() {
 
     // Instantiating manually for the academic demo.
     // In a production app, use a ViewModelProvider or Dependency Injection.
-    private val repository = DonorRepository()
+    private val repository = FirebaseDonorRepository()
     private val viewModel = DonorViewModel(repository)
 
     private var selectedDonationDateInMillis: Long = 0L
