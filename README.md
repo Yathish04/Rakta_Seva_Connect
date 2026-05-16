@@ -1,6 +1,6 @@
 # Rakta-Seva Connect 🩸
 
-Rakta-Seva Connect is a healthcare-focused Android application designed to support emergency blood donor coordination at the local and taluka levels.
+Rakta-Seva Connect is a healthcare-focused Android application designed to support emergency blood donor coordination at the local and taluka levels. 
 
 During medical emergencies, finding a specific blood group quickly is difficult because replacement donors are often not organized in a real-time, local, and secure manner. This system acts as a focused emergency alert platform that pushes requests to nearby registered donors of the required blood group, improving response speed during the critical golden hour.
 
